@@ -38,7 +38,8 @@ public class StartCode {
         //size
         System.out.println("Size = "+names.size());
         //check item is present there or not
-        System.out.println(names.contains("Patil"));         
+        System.out.println(names.contains("Patil"));
+        System.out.println("Hello new update");      
     }
     
 }
