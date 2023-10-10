@@ -16,9 +16,9 @@ public class StartCode {
          ArrayList<String> names = new ArrayList<>();
          //add
          names.add("Tushar");
-         names.add("Gawande");
-         names.add("Patil");
-         names.add("Gawande");
+         names.add("Rameshwar");
+         names.add("Mahesh");
+         names.add("Rohit");
          
          System.out.println(names);
         //  System.out.println(names.get(0));
@@ -34,12 +34,43 @@ public class StartCode {
         //  System.out.println(list);
        
         //delete
-        names.remove("Gawande");
+        //names.remove("Rameshwar");
+
         //size
-        System.out.println("Size = "+names.size());
+        //System.out.println("Size = "+names.size());
+
         //check item is present there or not
-        System.out.println(names.contains("Patil"));
-        System.out.println("Hello new update");      
+        //System.out.println(names.contains("Mahesh"));
+
+        //check for empty
+        //System.out.println(names.isEmpty());
+        
+        //setting value
+        //names.set(1, "Ramesh");
+
+        //System.out.println(names);
+
+        Vector<String> vector = new Vector<>();
+        vector.addAll(names);
+        System.out.println("VECTOR = "+vector);
+
+        System.out.println("_______________________________________________________________");
+
+        HashSet<Double> nms = new HashSet<>();
+        nms.add(14.14);
+        nms.add(34.12354);
+        nms.add(2354.235);
+        nms.add(99.3);
+        nms.add(99.3);
+        nms.add(5.3);
+
+        System.out.println(nms);
+
+        TreeSet<Double> tset= new TreeSet<>();
+        tset.addAll(nms);
+        System.out.println(tset);
+
+
     }
     
 }
